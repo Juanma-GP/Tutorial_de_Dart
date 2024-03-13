@@ -51,12 +51,50 @@ String generatePassword() {
 }*/
 
 // Write a program in Dart to calculate power of a certain number. For e.g 5^3=125
+/*void power(int a, int b) {
+  int total = a;
+  for (int i = 1; i < b; i++) {
+    total *= a;
+  }
+  print(total);
+}*/
+
+// Write a function in Dart named add that takes two numbers as arguments and returns their sum.
+/*int sum(int a, int b) {
+  return a + b;
+}*/
+
+// Write a function in Dart called maxNumber that takes three numbers as arguments and returns the largest number.
+/*int maximo(int a, int b, int c) {
+  int? _maximo;
+  if (a > b) {
+    _maximo = a;
+  } else {
+    _maximo = b;
+  }
+  if (_maximo > c) {
+    _maximo = _maximo;
+  } else {
+    _maximo = c;
+  }
+  return _maximo;
+}*/
+
+// Write a function in Dart called isEven that takes a number as an argument and returns True if the number is even, and False otherwise.
+/*bool isEven(int number) {
+  return (number % 2) == 0;
+}*/
+
+// Write a function in Dart called createUser with parameters name, age, and isActive, where isActive has a default value of true.
+/*void createUser(String name, int age, [bool isActive = true]) {
+  print('Is user $name with age $age active?: $isActive');
+}*/
+
+// Write a function in Dart called calculateArea that calculates the area of a rectangle. It should take length and width as arguments, with a default value of 1 for both. Formula: length * width.
+int calculateArea({int height = 1, int weight = 1}) {
+  return height * weight;
+}
 
 void main() {
-  print(reverse('AEIOU'));
+  print(calculateArea(height: 10, weight: 5));
 }
-// Write a function in Dart named add that takes two numbers as arguments and returns their sum.
-// Write a function in Dart called maxNumber that takes three numbers as arguments and returns the largest number.
-// Write a function in Dart called isEven that takes a number as an argument and returns True if the number is even, and False otherwise.
-// Write a function in Dart called createUser with parameters name, age, and isActive, where isActive has a default value of true.
-// Write a function in Dart called calculateArea that calculates the area of a rectangle. It should take length and width as arguments, with a default value of 1 for both. Formula: length * width.
